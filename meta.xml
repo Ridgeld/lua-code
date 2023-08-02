@@ -4,5 +4,4 @@
     <script src="server.lua" type="server"/>
     <script src="client.lua" type="client"/>
     <file src="assets/Inter-ExtraBold.ttf" />
-    <file src="assets/mim.png" />
 </meta>
