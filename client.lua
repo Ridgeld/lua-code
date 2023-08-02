@@ -38,17 +38,6 @@ end
 
 
 
--- Modified version for DX Text
--- function isCursorOverText(posX, posY, sizeX, sizeY)
--- 	if ( not isCursorShowing( ) ) then
--- 		return false
--- 	end
--- 	local cX, cY = getCursorPosition()
--- 	local screenWidth, screenHeight = guiGetScreenSize()
--- 	local cX, cY = (cX*screenWidth), (cY*screenHeight)
-
--- 	return ( (cX >= posX and cX <= posX+(sizeX - posX)) and (cY >= posY and cY <= posY+(sizeY - posY)) )
--- end
 local panelX, panelY, panelW, panelH = (x/2)+40, (y/2)+120, 120, 40
 local panelColor = tocolor(0, 250, 255, 255)
 local textColor = tocolor(55,55,55, 255)
