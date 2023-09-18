@@ -1,0 +1,7 @@
+addEvent( "acceptInvite", true )
+addEventHandler( "acceptInvite", resourceRoot, function( player, fraction_id ) 
+    outputChatBox( "Вы приняли приглашение!", player, 0, 255, 0)
+    setElementData(player, "rang", "cотрудник" )
+    setElementData( player, "fraction", fraction_id )
+    setElementModel(player, 57)
+end )
